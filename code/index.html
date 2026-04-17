@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="个人作品展示网站，包含项目案例、能力介绍与联系方式。"
+    />
+    <title>你的名字 | 个人作品集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-gradient"></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">YOUR NAME</a>
+        <button class="menu-toggle" aria-label="切换菜单">菜单</button>
+        <nav class="site-nav">
+          <a href="#works">作品</a>
+          <a href="#about">关于</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container reveal">
+        <p class="eyebrow">PORTFOLIO / 2026</p>
+        <h1>设计与代码结合，打造有温度的数字作品。</h1>
+        <p class="hero-desc">
+          我专注于品牌官网、活动页面和中后台体验优化。这里展示了我近期最有代表性的项目，
+          从策略、视觉到落地开发，全流程可控。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#works">查看作品</a>
+          <a class="btn btn-ghost" href="#contact">合作联系</a>
+        </div>
+      </section>
+
+      <section id="works" class="container section reveal">
+        <div class="section-head">
+          <h2>精选作品</h2>
+          <p>可替换为你的真实项目链接与成果数据。</p>
+        </div>
+        <div class="work-grid">
+          <article class="card">
+            <p class="tag">品牌官网</p>
+            <h3>Nova Studio Landing</h3>
+            <p>
+              负责视觉规范与前端实现，首页加载速度提升 41%，转化率提升 23%。
+            </p>
+            <a href="#" aria-label="查看 Nova Studio 项目详情">查看详情</a>
+          </article>
+          <article class="card">
+            <p class="tag">电商专题</p>
+            <h3>Season Campaign 2025</h3>
+            <p>
+              主导活动页动效与内容结构，活动期间 UV 增长 65%，停留时长增长 32%。
+            </p>
+            <a href="#" aria-label="查看 Season Campaign 项目详情">查看详情</a>
+          </article>
+          <article class="card">
+            <p class="tag">数据可视化</p>
+            <h3>Insight Dashboard</h3>
+            <p>
+              重构核心看板模块，关键指标可读性显著提升，业务决策周期缩短 2 天。
+            </p>
+            <a href="#" aria-label="查看 Insight Dashboard 项目详情">查看详情</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="container section reveal">
+        <div class="section-head">
+          <h2>关于我</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            我是一名注重细节的设计型开发者，擅长把复杂信息梳理成清晰体验。
+            在项目中，我关注三件事：视觉一致性、性能稳定性、业务可衡量性。
+          </p>
+          <ul>
+            <li>5+ 年 Web 项目经验</li>
+            <li>熟悉品牌官网 / 运营活动 / B 端系统</li>
+            <li>可独立完成设计到前端交付</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="container section contact reveal">
+        <h2>想一起做点有意思的项目？</h2>
+        <p>欢迎通过邮箱联系我，或在社交平台查看更多更新。</p>
+        <div class="contact-links">
+          <a href="mailto:yourname@email.com">yourname@email.com</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.behance.net/" target="_blank" rel="noreferrer">Behance</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> YOUR NAME. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
